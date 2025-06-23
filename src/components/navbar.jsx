@@ -1,5 +1,5 @@
-import '/src/index.css'
-import { CodeSlash } from '../assets/code-slash.svg'
+import '../index.css'
+import codeSlash from '../assets/code-slash.svg'
 
 export default function Navbar() {
     return (
@@ -7,7 +7,7 @@ export default function Navbar() {
           
           <div className ="flex items-center gap-2">
 
-            <img src={CodeSlash} alt="Code Vibe" className="w-[32px] h-[32px]" />
+            <img src={codeSlash} alt="Code Vibe" className="w-[32px] h-[32px]" />
             <h1 className="text-3xl font-bold" >Code Vibe</h1>
 
           </div>
